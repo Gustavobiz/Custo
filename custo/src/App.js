@@ -16,7 +16,7 @@ function App() {
         <Link to="/Company">Company</Link>
         <Link to="/NewProject">NewProject</Link>
       </div>
-      <Container>
+      <Container customClass="min-hight">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Company" element={<Company />} />

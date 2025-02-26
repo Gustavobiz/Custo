@@ -5,3 +5,7 @@
   margin: 0 auto;
   flex-wrap: wrap;
 }
+
+.min-hight {
+  min-height: 75%;
+}
