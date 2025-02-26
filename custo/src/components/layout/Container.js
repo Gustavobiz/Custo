@@ -1,5 +1,5 @@
 function Container(props) {
-  return <div></div>;
+  return <div>{props.children}</div>;
 }
 
 export default Container;

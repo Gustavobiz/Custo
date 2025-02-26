@@ -5,6 +5,8 @@ import NewProject from "./components/pages/NewProject";
 import Company from "./components/pages/Company";
 import Contact from "./components/pages/Contact";
 
+import Container from "./components/layout/Container";
+
 function App() {
   return (
     <Router>
@@ -14,13 +16,14 @@ function App() {
         <Link to="/Company">Company</Link>
         <Link to="/NewProject">NewProject</Link>
       </div>
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Company" element={<Company />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/NewProject" element={<NewProject />} />
-      </Routes>
+      <Container>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Company" element={<Company />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/NewProject" element={<NewProject />} />
+        </Routes>
+      </Container>
     </Router>
   );
 }
