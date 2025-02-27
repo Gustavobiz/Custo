@@ -1,5 +1,6 @@
+import { FaFacebook } from "react-icons/fa";
 function Footer() {
-  return <p>oi</p>;
+  return <FaFacebook></FaFacebook>;
 }
 
 export default Footer;
