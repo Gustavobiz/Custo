@@ -7,23 +7,23 @@ import logo from "../../img/costs_logo.png";
 
 function Navbar() {
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <Container>
         <Link to="/">
           <img src={logo} alt="Costs"></img>
         </Link>
-        <ul>
-          <li>
+        <ul className={styles.list}>
+          <li className={styles.item}>
             <Link to="/">Home</Link>
           </li>
-          <li>
-            <Link to="/Contact">Contact</Link>
+          <li className={styles.item}>
+            <Link to="/Company">Compania</Link>
           </li>
-          <li>
-            <Link to="/Company">Company</Link>
+          <li className={styles.item}>
+            <Link to="/Projects">Projetos</Link>
           </li>
-          <li>
-            <Link to="/NewProject">NewProject</Link>
+          <li className={styles.item}>
+            <Link to="/Contact">Contato</Link>
           </li>
         </ul>
       </Container>
