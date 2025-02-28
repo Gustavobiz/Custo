@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Home.module.css";
 import savings from "../../img/savings.svg";
+
+import LinkButtom from "../layout/LinkButtom";
 function Home() {
   return (
     <section className={styles.home_container}>
@@ -8,7 +10,7 @@ function Home() {
         Bem-vindo ao <span>Costs</span>
       </h1>
       <p>Comece a gerenciar os seus projetos agora mesmo!</p>
-      <a href="/">Criar Projeto</a>
+      <LinkButtom to="/NewProject" text="Criar Projeto" />
       <img src={savings} alt="Costs" />
     </section>
   );
