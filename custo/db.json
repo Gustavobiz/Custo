@@ -3,19 +3,19 @@
   "categories": [
     {
       "id": 1,
-      "nome": "Infra"
+      "name": "Infra"
     },
     {
       "id": 2,
-      "nome": "Desenvolvimento"
+      "name": "Desenvolvimento"
     },
     {
       "id": 3,
-      "nome": "Design"
+      "name": "Design"
     },
     {
       "id": 4,
-      "nome": "Planejamento"
+      "name": "Planejamento"
     }
   ]
 }
