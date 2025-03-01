@@ -9,9 +9,12 @@ function ProjectForm() {
         name="name"
         placeholder="Insira o nome do projeto"
       />
-      <div>
-        <input type="number" placeholder="insira o orçamento total"></input>
-      </div>
+      <Input
+        type="number"
+        text="Orçamento do projeto"
+        name="budget"
+        placeholder="insira o orçamento total"
+      />
       <div>
         {" "}
         <select name="category_id">
