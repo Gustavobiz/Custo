@@ -11,11 +11,13 @@ function NewProject() {
       headers: {
         "content-type": "aplication/json",
       },
+      body: JSON.stringify(project),
     })
       .then((resp) => resp.json())
       .then((data) => {
         console.log(data);
-      });
+      })
+      .catch((err) => console.log(err));
   }
 
   return (
@@ -23,7 +25,7 @@ function NewProject() {
       <h1>Criar Projeto</h1>
       <p>Crie seu projeto para depois adicionar os serviços</p>
       <p>Formulário:</p>
-      <ProjectForm btnText="Criar Projeto" />
+      <ProjectForm headleSubmit={createPost} btnText="Criar Projeto" />
     </div>
   );
 }
