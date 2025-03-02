@@ -28,9 +28,3 @@ function NewProject() {
   );
 }
 export default NewProject;
-/*
-f
-f
-f
-f
-*/
