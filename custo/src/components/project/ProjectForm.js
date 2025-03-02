@@ -29,7 +29,7 @@ function ProjectForm({ handleSubmit, btnText, ProjectData }) {
   };
 
   return (
-    <form className={styles.form}>
+    <form onSubmit={submit} className={styles.form}>
       <Input
         type="text"
         text="Nome do projeto"
