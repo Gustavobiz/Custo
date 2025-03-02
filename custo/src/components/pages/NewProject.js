@@ -41,5 +41,15 @@ z
 \zx
 z
 \z
+f
+f
+f
+f
+f
+f
+
+for (const iterator of object) {
+  
+}
 \
 */
