@@ -28,27 +28,3 @@ function NewProject() {
   );
 }
 export default NewProject;
-/*sdfanjksd
-dsf
-s
-dsfsdf
-
-
-sd
-z
-z
-z
-\zx
-z
-\z
-f
-d
-d
-d
-d
-d
-d
-d
-
-\
-*/
