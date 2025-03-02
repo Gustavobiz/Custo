@@ -13,7 +13,9 @@ function NewProject() {
       },
     })
       .then((resp) => resp.json())
-      .then();
+      .then((data) => {
+        console.log(data);
+      });
   }
 
   return (
