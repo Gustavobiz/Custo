@@ -6,7 +6,14 @@ function NewProject() {
   function createPost(project) {
     project.cost = 0;
     project.services = [];
-    fetch("http://localhost:5000/projects");
+    fetch("http://localhost:5000/projects", {
+      method: "POST",
+      headers: {
+        "content-type": "aplication/json",
+      },
+    })
+      .then((resp) => resp.json())
+      .then();
   }
 
   return (
