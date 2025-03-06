@@ -31,22 +31,3 @@ function NewProject() {
   );
 }
 export default NewProject;
-/*
-d
-d
-ds
-s
-s
-s
-s
-s
-
-servicesss
-
-s
-s
-s
-s
-s
-d
-*/
