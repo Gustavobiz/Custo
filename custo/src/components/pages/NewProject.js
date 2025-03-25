@@ -31,11 +31,3 @@ function NewProject() {
   );
 }
 export default NewProject;
-/*fdfasdfads d
-d
-d
-d
-d
-
-d
-d*/
